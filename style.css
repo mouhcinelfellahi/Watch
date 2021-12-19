@@ -1,0 +1,55 @@
+#out-box {
+    
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.514);
+}
+
+#in-box {
+    
+    width: 340px;
+    height: 240px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(108, 119, 199, 0.51);
+    text-align: center;
+    
+}
+
+#time {
+    
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+    font-size: 52px;
+    font-family: 'Saira Stencil One', cursive;
+    background-color: black;
+    line-height: 200px
+}
+
+#date {
+    
+    height: 40px;
+    background-color: aliceblue;
+    font-size: 22px;
+    font-family: 'Saira Stencil One', cursive;
+    
+}
+
+#set-time,#set-date {
+    
+    margin: 0%;
+}
+
+input[type="color" i] {
+    
+    border: 0px solid black;
+    background-color: black;
+}
+
